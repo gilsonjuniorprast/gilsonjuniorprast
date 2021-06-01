@@ -1,0 +1,39 @@
+div#topo{
+	width:945px;
+	height:165px;
+	margin:0 auto;
+}
+
+div#logo{
+	width:310px;
+	height:80px;
+	float:left;
+}
+
+div#login{
+	width:730px;
+	height:500px;
+	float:right;
+	margin-top:50px;
+}
+
+div#login p{
+	font-family:arial;
+	font-size:16px;
+}
+
+div#container{
+	background:#ddd;
+	width:945px;
+	height:800px;
+	margin:0 auto;
+}
+
+div.chamada{
+	width:245px;
+	height:150px;
+	float:left;
+	margin-top:20px;
+	margin-left:55px;
+	
+}
