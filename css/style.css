@@ -1,20 +1,75 @@
-div#topo{
-	background:#ccc;
-	width:945px;
-	height:165px;
-	margin:0 auto;
+/* RESET */
+*{
+    margin: 0; padding: 0; font-size: 100%;
+    font-family: 'Open Sans', sans-serif; font-weight: normal; box-sizing: border-box;
+    border: none; outline: none;
 }
 
-div#logo{
-	background:#f00;
-	width:310px;
-	height:80px;
-	margin-top:50px;
+/*CABEÇALHO*/
+.cabecalho {
+    width: 100%; float: left; padding: 50px 8%;
+    background-color: rgb(153, 236, 145);
+}
+.logo a {
+    width: 225px; height: 225px; float: left; background: url(../imagens/logoperfil.jpg) no-repeat;
+    font-size: 0; border-radius: 5px 5px 5px 5px;
+}
+p{
+	font-size: 30px; color: black; float: right;
+}
+.menu{
+    width: 100%; float: left; background-color: #111; padding: 18px 8%;
+}
+/* SOCIAL ICONS */
+.social-icons{
+    float: right;
+}
+.social-icons a{
+    color: #fff; float: left; margin-left: 12px;
+}
+.btn-facebook:hover{
+    color: #3b5998;
+}
+.btn-instagram:hover{
+    color: rgb(226, 230, 33);
+}
+.btn-curriculo:hover{
+    color: #d73d32
+}
+/*PRINCIPAL*/
+.principal{
+    width: 100%; float: left;padding: 20px 8%;
+}
+.sobre{
+    float: left; width: 70%;padding: 0 20px 20px 0;
+}
+.sobre h2{
+    margin-bottom: 15px; font-family: Arial, Helvetica, sans-serif;
 }
 
-div#login{
-	background:#0f0;
-	width:180px;
-	height:70px;
-	margin-top:50px;
+.sobre p{
+    text-align: justify; font-size: 15px; font-family: Arial, Helvetica, sans-serif;
+}
+/*SIDE BAR*/
+.onde-estou{
+    width: 30%; float: right; padding: 10px 20px; background-color: #f5f5f5; border-radius: 5px;
+}
+.onde-estou h2{
+    margin-bottom: 5px;
+}
+.onde-estou iframe{
+    width: 100%; height: 250px; margin: 20px 0;
+}
+.onde-estou li{
+    color:#777; margin-bottom: 10px;
+}
+.onde-estou i {
+    margin-right: 5px;
+}
+.onde-estou p{
+	font-size: 20px; font-family: Arial, Helvetica, sans-serif;
+}
+/*RODAPE*/
+.rodape{
+    width: 100%;float: left; background-color: rgb(153, 236, 145); padding: 20px 8%;
 }
